@@ -1,7 +1,7 @@
 <script>
   import Icon from "./Icon.svelte";
 
-  import {onMount} from "svelte";
+  import {onDestroy, onMount} from "svelte";
   import {getLocationWeather, storedData} from "../api";
   import {MAP_AUTOCOMPLETE_OPTIONS} from "../api/utils";
 

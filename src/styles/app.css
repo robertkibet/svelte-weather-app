@@ -90,6 +90,15 @@ h1 {
   gap: 20px;
 }
 
+.initializing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
 button {
   outline: none;
   background: none;

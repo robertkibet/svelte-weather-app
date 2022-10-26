@@ -17,10 +17,15 @@ Sentry.init({
 declare global {
   interface Window {
     google: any;
+    initMap: any;
   }
 }
 const app = new App({
   target: document.getElementById("app"),
 });
+
+window.initMap = function ready() {
+  app.$set({ready: true});
+};
 
 export default app;
