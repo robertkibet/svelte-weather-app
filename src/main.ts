@@ -14,6 +14,11 @@ Sentry.init({
   tracesSampleRate: 1.0,
 });
 
+declare global {
+  interface Window {
+    google: any;
+  }
+}
 const app = new App({
   target: document.getElementById("app"),
 });
