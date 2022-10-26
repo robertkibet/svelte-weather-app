@@ -1,3 +1,36 @@
+Getting started
+===============
+This is a simple app made with typescript, svelte, open weather api and google maps.
+
+To run this app locally you need to have nodejs installed.
+
+To install the dependencies run:
+```bash
+git clone https://github.com/robertkibet/svelte-weather-app.git
+cd svelte-weather-app
+npm install
+npm run dev
+```
+
+To build the app run:
+```bash
+npm run build
+```
+
+This weather app has been deployed on Vercel, you can check it out here: 
+https://svelte-weather-app-nine.vercel.app/
+  
+
+### Important links
+- Google Maps Javascript Docs: https://developers.google.com/maps/documentation/javascript/overview
+- Open Weather API Docs: https://openweathermap.org/api
+- Svelte Docs: https://svelte.dev/docs
+- Svelte setup with Google Maps: https://fireship.io/snippets/setup-google-maps-with-svelte/
+
+----------------------------
+
+
+
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
