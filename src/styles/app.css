@@ -77,6 +77,10 @@ h1 {
   padding: 2em;
 }
 
+.lds-ellipsis div {
+  background: var(--text-color)
+}
+
 #app {
   max-width: 1280px;
   width: 100%;
